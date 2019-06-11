@@ -11,7 +11,6 @@ public class Main {
         try {
             PrintWriter printWriter = new PrintWriter(new FileWriter("data.txt", true));
             printWriter.println("Hello World!");
-            printWriter.close();
 
         } catch (IOException e) {
             e.printStackTrace();
